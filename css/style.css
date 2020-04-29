@@ -1,0 +1,354 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family:'Verdana',sans-serif;
+ 
+  }
+
+  .etapa{
+      display: none;
+  }
+  #resp_2{
+      margin-left: 65px;
+  }
+
+  #btn{
+    background-color: #DE4B4B; 
+    float: right;
+    width: 50%;
+    border-radius:10px;
+    font-size: 17px;
+  }
+.vazio #asterisco {
+    word-spacing: 10px;
+    }
+
+.cartao-input{
+        display: none;
+    }
+.titular{
+      padding-top: 50px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+     
+  }
+
+.titular_2{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 12px;
+    margin-left: -40px;
+   
+}
+#validade{
+      margin-left: 60px;
+  }
+
+  #erro_numero,#erro_validade, #erro_cvv{
+      color: red;
+  }
+#numero{
+      margin-top:   25px;
+  }
+body{
+    background-color: #F7F7F7;
+}
+.vazio{
+    background: url("../assets/vazio.png") no-repeat;
+    background-size: contain;
+    padding: 50px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-left: 50px;
+}
+.cartao-input{
+    background: url("../assets/cartao.png") no-repeat;
+    background-size: contain;
+    padding: 50px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-left: 50px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    padding-top: 220px;
+    width: 100%;
+    height: 50%;
+    
+}
+.cartao{
+    background-color: #DE4B4B;
+    padding:30px;
+    width:27%;
+    padding-left: 50px;
+}
+
+.cartao p {
+    color:white;
+
+}
+
+.setinha{
+    display: none;
+}
+
+#alterar{
+    
+    padding-top: 30px;
+    padding-bottom:20px;
+}
+
+.cartao .icon{
+    position: absolute;
+}
+
+
+.novo{
+    display: flex;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    justify-content: space-between;
+    
+}
+
+.novo p {
+    font-size: 20px;
+    color:white;
+    font-family: 'Verdana',sans-serif;
+ 
+}
+
+#img_cartao img{
+    margin-top: -20px;
+    width: 50px;
+    height: 20px;
+}
+
+.form{
+    background-color: white;
+    padding:50px;
+    padding-left: 150px;
+}
+.row p{
+    color: red;
+    font-size: 13px;
+}
+
+.bolinha{
+    border: 1px solid red;
+    padding:7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    margin-right: 10px;
+    margin-left: 20px;
+  
+    font-size: 13px;
+    
+}
+
+.seta{
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+
+
+
+.btn{
+    float: right;
+    width: 50%;
+ 
+    border-radius: 20px;
+    font-size: 17px;
+}
+
+#cvv_id{
+    display: none;
+}
+
+
+@media only screen and (max-width: 1400px) {
+    .novo p {
+        font-size: 13px;
+        margin-bottom: 53px;
+    }
+}
+
+
+@media only screen and (max-width: 1210px) {
+    /* #img_cartao{
+        width: 320px;
+    } */
+}
+
+@media only screen and (max-width: 1024px) {
+    .main {
+
+        padding-top: 160px;
+    }
+    #img_cartao{
+        width: 300px;
+    }
+
+    .row p {
+     
+        font-size: 10px;
+    }
+
+    .cartao p  {
+        color: white;
+        font-size: 12px;
+     
+    }
+
+    .cartao {
+       
+        width: 40%;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .setinha{
+        color:white;
+        display: flex;
+    }
+    #validade {
+        margin-top: -47px;
+ 
+        margin-left: 78px;
+    }
+    .main{
+        flex-direction: column;
+        width: 100%;
+    }
+    .cartao{
+        width: 100%;
+    }
+
+    .row p {
+        display: none;
+    }
+    .titular{
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 10px;
+    }
+
+    .form {
+        padding-left: 50px;
+    } 
+    #alterar{
+        display: none;
+    }
+    .etapa{
+        display: flex;
+        justify-content: center;
+        margin-top: -29px;
+    }
+
+    .etapa p{
+        font-size: 20px;
+    }
+
+    .setinha{
+     color:white;
+     font-size: 25px;
+
+    }
+
+    .cartao .icon {
+        position:relative;
+    }
+     #img_cartao{
+        position: absolute;
+        margin-top: -51px;
+        margin-left: 7%;
+
+    } 
+
+    .novo {
+       
+        justify-content: center;
+    }
+    .cartao p {
+        font-size: 14px;
+    }
+
+    .icon{
+        width: 60px;
+        height: 60px;
+    }
+
+    #resp{
+        margin-top: 70px;
+    }
+    #btn {
+      
+        margin-right: 25%;
+    }
+
+    
+.vazio {
+    
+    margin-top: -50px;
+}
+    
+} 
+
+ 
+@media only screen and (max-width: 425px) {
+
+    #img_cartao {
+       
+        margin-left: -2%;
+    }
+
+    #resp_2{
+        margin-left: 32px;
+    }
+    
+
+    #resp {
+        margin-top: 90px;
+    }    
+} 
+
+
+ @media only screen and (max-width: 354px) {
+
+    .main {
+        flex-direction: column;
+        width: 320px;
+    }
+    #img_cartao {
+        width: 243px;
+    }
+
+    .cartao p {
+        font-size: 17px;
+    }
+
+    #resp_2{
+        margin-left: 17px;
+    }
+
+    #btn{
+        width: 80%;
+        margin-right: 20px;
+    }
+} 
+
+
+
